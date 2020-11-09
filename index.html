@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="shortcut icon" type="image/png" href="images/cloud.png">
+  <script src="https://kit.fontawesome.com/0636512927.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Find Your Weather!</h1>
+  </div>
+  <div class="signup">
+    <form class="signup-header">
+      <label>Enter a U.S. City</label>
+      <div class="signup-input">
+        <input id="weatherInput" type="text" placeholder="city name"></input><br/>
+        <input id="weatherSubmit" type="submit" value="Submit" class="submit"></input>
+      </div>
+    </form>
+  </div>
+  <div id="weatherResults">
+  </div>
+  <div id="forecastResults" class="desktopflex">
+	</div>
+
+
+  <div class="footer">
+    <div class="footer-content">
+      <i class="fab fa-github fa-2x"></i>
+      <a href="https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-chandlerr13" target="_blank" class="footer-text">GitHub Repo</a>
+    </div>
+    <div class="footer-content">
+      <!-- TODO: align this p tag vertically with everything else -->
+      <p class="footer-text">© Chandler Rogers 2020</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+</body>
+
+</html>
